@@ -45,3 +45,76 @@
 # x=10
 # y=float(x)
 # print(y)
+
+#operator : Operator is a symbol that tells python to perform a specific computation
+
+# Arithmetic Operators - used to perform math operations.
+# a = 5
+# b = 10
+# print(a + b)# Addition
+# print(a - b)# Subtraction
+# print(a * b)# Multiplication
+# print(a / b)# Division
+# print(a % b)# Modulo - remainder
+# print(a ** b)# Power
+
+# Relational Operators - used to compare values
+# a = 10
+# b = 20
+# # Equal to
+# print("a == b:", a == b) # False
+# # Not equal to
+# print("a != b:", a != b) # True
+# # Greater than
+# print("a > b:", a > b) # False
+# # Less than
+# print("a < b:", a < b) # True
+# # Greater than or equal to
+# print("a >= b:", a >= b) # False
+# # Less than or equal to
+# print ("a <= b:", a <= b) # True
+
+# Assignment Operators - used to assign values to variables.
+# Simple assignment
+# x = 10
+# print("x =", x) # 10
+# x += 5 # equivalent to x = x + 5
+# print("x += 5 ->", x) # 15
+# x -= 3 # equivalent to x = x - 3
+# print("x -= 3 ->", x) # 12
+# x *= 2 # equivalent to x = x * 2
+# print("x *= 2 ->", x) # 24
+# x /= 4 # equivalent to x = x / 4
+# print("x /= 4 ->", x) # 6.0
+# x %= 4 # equivalent to x = x % 4
+# print("x %= 4 ->", x) # 2.0
+# x **= 3 # equivalent to x = x ** 3
+# print("x **= 3 ->", x) # 8.0
+
+# Logical Operators - used to combine boolean values. 
+# x = 10
+# y = 20
+# z = 5
+# # AND
+# print(x > z and y > x) # True
+# # OR
+# print(x > y or y > z) # True
+# # NOT
+# print(not (x > y)) # True
+
+
+#Input : Its a function to take input from user while the program is running
+# name=input("enter name: ")#By default string
+# print(name)
+
+# a=int(input("enter a number a : "))
+# b=int(input("enter b number b : "))
+# c=a+b
+# print(c)
+
+
+
+
+
+
+
