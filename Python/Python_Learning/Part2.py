@@ -6,6 +6,19 @@
 # else:
 #     print("You can vote")
 
+# Nesting in Conditionals
+# Login System
+# username = input("enter username: ")
+# password = input("enter password: ")
+# if (username == "admin" and password == "pass"):
+#     print("log in successful!")
+# else:
+#     if username != "admin": # NESTING
+#         print("wrong user name, try again.")
+#     else:
+#         print("wrong password, try again.")
+
+
 
 
 
