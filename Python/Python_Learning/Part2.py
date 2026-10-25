@@ -77,19 +77,54 @@
 
 # The for Loops
 # Let’s look at an example:
-for i in range(5):
-    print(i)
+# for i in range(5):
+#     print(i)
 # output: 0, 1, 2, 3, 4 
 
 # single argument - start
-for i in range(5):
-    print(i)
+# for i in range(5):
+#     print(i)
 # output: 0, 1, 2, 3, 4
 # 2 arguments - start, stop
-for i in range(1, 6):
-    print(i)
+# for i in range(1, 6):
+#     print(i)
 # output: 1, 2, 3, 4 , 5
 # 3 arguments - start, stop, step
-for i in range(1, 10, 2):
-    print(i)
+# for i in range(1, 10, 2):
+#     print(i)
 # output: 1, 3, 5, 7, 9
+
+
+# Functions
+# Functions in Python are blocks of reusable code that perform a specific task
+
+# Function Definition
+# def hello():
+#     print("hello from Prime")
+
+# hello() #--> function call
+
+# Fnx to compute sum of 2 nums
+# def sum(a, b):
+#     print (a + b) # a & b are parameters
+
+# print(sum(5, 10)) # 5 & 10 are arguments
+
+# sum() fnx with default param 1
+# def sum(a, b = 1): # default val of b is 1
+#     return a + b
+# print(sum(5)) # output: 6
+
+
+# Built-in Functions
+# print()
+# input()
+# type()
+# range()
+
+# Lambda Functions
+# fnx to compute x^2
+# square = lambda x: x * x
+# print(square(5))
+
+# Practice Problems (Set 3)
